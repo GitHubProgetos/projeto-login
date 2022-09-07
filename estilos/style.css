@@ -14,19 +14,32 @@ Preto azulado #000729
 }
 
 body, html {
-    background-color: #000729;
+    background-color: #1e1e1e;
     height: 100vh;
     width: 100vw;
+}
+
+p {
+    color: rgb(139, 136, 136);
+    padding: 7px;
+    
+}
+
+h1 {
+    text-align: center;
+    color: rgb(139, 136, 136);
 }
 
 main {
     height: 100vh;
     width: 100vw;
     position: relative;
+    color: #1e1e1e;
+    
 }
 
 section#login {
-    background-color: #ececec;
+    background-color: #1e1e1e;
     width: 250px;
     height: 500px;
     border-radius: 8px;
@@ -35,7 +48,9 @@ section#login {
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden; /*Tudo que tiver fora da borda fica escondido*/
-    border: 1px solid #00545d ;
+    border: 1px solid #ff005c ;
+    /*border : linear-gradient(to bottom right, #00545d 40%, #000729 50%);*/
+    
 }
 
 section#login > div#foto {
@@ -48,6 +63,9 @@ section#login > div#foto {
 section#login > div#formulario {
     padding: 10px;
     display: block;
+    
+    
+   
 
 }
 

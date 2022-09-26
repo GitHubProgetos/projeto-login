@@ -25,6 +25,20 @@ p {
     
 }
 
+form > div.campo{
+    background-color: #7c7c8a7c;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    margin: 10px 0px;
+}
+
+div.campo > label{
+    display: none;
+
+}
+
 h1 {
     text-align: center;
     color: rgb(139, 136, 136);
@@ -41,7 +55,7 @@ main {
 section#login {
     background-color: #1e1e1e;
     width: 250px;
-    height: 500px;
+    height: 535px;
     border-radius: 8px;
     position: absolute;
     top: 50%;
@@ -50,6 +64,8 @@ section#login {
     overflow: hidden; /*Tudo que tiver fora da borda fica escondido*/
     border: 1px solid #ff005c ;
     /*border : linear-gradient(to bottom right, #00545d 40%, #000729 50%);*/
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
     
 }
 
@@ -63,9 +79,51 @@ section#login > div#foto {
 section#login > div#formulario {
     padding: 10px;
     display: block;
-    
-    
-   
-
 }
+
+.fa-regular{
+    color: rgb(139, 136, 136);
+}
+
+.fa-solid {
+    color: rgb(139, 136, 136);
+}
+
+.cor {
+    color: rgb(139, 136, 136);
+}
+
+form > input  {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #000000;
+    color: rgb(139, 136, 136);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+form > input:hover{
+    border: 1px solid #ff005c ;
+}
+
+form > a.botao{
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    font-size: 1em;
+    background-color: #121214;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 9px;
+}
+
+form > a.botao:hover{
+    border: 1px solid #ff005c ;
+}
+
+
 

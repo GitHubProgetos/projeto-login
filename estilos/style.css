@@ -26,12 +26,15 @@ p {
 }
 
 form > div.campo{
-    background-color: #7c7c8a7c;
+    background-color: #292923;
     display: block;
     width: 100%;
     height: 40px;
     border-radius: 8px;
     margin: 10px 0px;
+    border: 1px solid #7c7c8a25;
+    padding: 1px;
+
 }
 
 div.campo > label{
@@ -83,10 +86,30 @@ section#login > div#formulario {
 
 .fa-regular{
     color: rgb(139, 136, 136);
+    font-size: 1.1em;
+    width: 40px;
+    padding: 5px;
+    text-align: center;
+    margin: ;
 }
 
 .fa-solid {
     color: rgb(139, 136, 136);
+   font-size: 1.1em;
+    width: 40px;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+div.campo > input {
+    background-color: #7c7c8a25;
+    font-size: 1em;
+    height: 100%;
+    width: calc(100% - 45px);
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(1px);
 }
 
 .cor {
@@ -103,6 +126,8 @@ form > input  {
     border: none;
     border-radius: 8px;
     cursor: pointer;
+    
+    
 }
 
 form > input:hover{

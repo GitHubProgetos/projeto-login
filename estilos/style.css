@@ -84,16 +84,15 @@ section#login > div#formulario {
     display: block;
 }
 
-.fa-regular{
+.fa-solid{
     color: rgb(139, 136, 136);
     font-size: 1.1em;
     width: 40px;
     padding: 5px;
     text-align: center;
-    margin: ;
 }
 
-.fa-solid {
+.fa-solid{
     color: rgb(139, 136, 136);
    font-size: 1.1em;
     width: 40px;
@@ -109,7 +108,7 @@ div.campo > input {
     width: calc(100% - 45px);
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(1px);
+    transform: translateY(-0px);
 }
 
 .cor {

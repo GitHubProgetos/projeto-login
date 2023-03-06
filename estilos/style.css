@@ -22,7 +22,6 @@ body, html {
 p {
     color: rgb(139, 136, 136);
     padding: 7px;
-    
 }
 
 form > div.campo{
@@ -34,13 +33,13 @@ form > div.campo{
     margin: 10px 0px;
     border: 1px solid #7c7c8a25;
     padding: 1px;
-
 }
 
 div.campo > label{
     display: none;
-
 }
+
+
 
 h1 {
     text-align: center;
@@ -52,7 +51,6 @@ main {
     width: 100vw;
     position: relative;
     color: #1e1e1e;
-    
 }
 
 section#login {
@@ -64,13 +62,22 @@ section#login {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    overflow: hidden; /*Tudo que tiver fora da borda fica escondido*/
+    overflow: hidden; /*Tudo que estiver fora da borda fica escondido*/
     border: 1px solid #ff005c ;
-    /*border : linear-gradient(to bottom right, #00545d 40%, #000729 50%);*/
-    transition: width .3s, height .3s;
-    transition-timing-function: ease;
-    
 }
+
+/*section#login {
+    
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(20deg, #ff2475 ,#23e3f8, #ff2475,#23e3f8  ) 1;
+    border-image: linear-gradient(to right, #ff2475 ,#23e3f8, #ff2475,#23e3f8  ) 1;
+    border-image: linear-gradient(20deg, #ff2475 ,#23e3f8 ) 1 ;
+    border-radius: 8px;
+}*/
+
+
+
 
 section#login > div#foto {
     background: #000729 url(../imagens/bn01.jpg) no-repeat;
@@ -94,11 +101,10 @@ section#login > div#formulario {
 
 .fa-solid{
     color: rgb(139, 136, 136);
-   font-size: 1.1em;
+    font-size: 1.1em;
     width: 40px;
     padding: 5px;
     text-align: center;
-    
 }
 
 div.campo > input {
@@ -108,7 +114,10 @@ div.campo > input {
     width: calc(100% - 45px);
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-0px);
+    transform: translateY(-1px);
+    transition: .5s;
+    
+    
 }
 
 .cor {
@@ -125,12 +134,14 @@ form > input  {
     border: none;
     border-radius: 8px;
     cursor: pointer;
+    transition: .5s;
     
-    
+
 }
 
 form > input:hover{
     border: 1px solid #ff005c ;
+    letter-spacing: .20em;
 }
 
 form > a.botao{
@@ -143,11 +154,23 @@ form > a.botao{
     border-radius: 8px;
     text-decoration: none;
     margin-top: 9px;
+    transition: .5s;
 }
 
 form > a.botao:hover{
     border: 1px solid #ff005c ;
+    letter-spacing: .16em;
 }
+
+div.campo > input:focus-within { /*coloca a cor que o progamador quizer no input*/
+    background-color:  rgba(139, 136, 136, 0.397);
+}
+
+div.campo input{ /*Tira a borda envolta do input*/
+    outline: none;
+}
+
+
 
 
 

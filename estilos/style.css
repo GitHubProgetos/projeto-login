@@ -159,7 +159,7 @@ form > a.botao{
 
 form > a.botao:hover{
     border: 1px solid #ff005c ;
-    letter-spacing: .16em;
+    /*letter-spacing: .11em;*/
 }
 
 div.campo > input:focus-within { /*coloca a cor que o progamador quizer no input*/
